@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { getMealsList } from "../utils/useMeals";
-import { Container, Row, Spinner } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import MealsList from "../components/IngredientsDetail/MealsList";
 import MealsSearch from "../components/IngredientsDetail/MealsSearch";
 import NavbarComponent from "../components/NavbarComponent";
@@ -21,7 +21,7 @@ const IngredientDetail = () => {
       setLoading(false);
     });
     // getMealsList(strIngredients);
-  }, []);
+  }, [strIngredients]);
 
   const searchQuery = (event) => {
     setSearch(event.target.value);
