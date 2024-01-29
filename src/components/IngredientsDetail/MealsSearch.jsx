@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import { Form, InputGroup } from "react-bootstrap";
 import { FaSearch } from "react-icons/fa";
 

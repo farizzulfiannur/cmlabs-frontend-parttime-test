@@ -21,7 +21,7 @@ const MealsDetail = () => {
       setMealDetail(firstMeal);
       setLoading(false);
     });
-  }, []);
+  }, [idMeal]);
 
   const getEmbedUrl = (url) => {
     const videoId = url && url.split("v=")[1];

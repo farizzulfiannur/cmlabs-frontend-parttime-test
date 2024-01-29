@@ -15,3 +15,5 @@
  `npm start`
  10. Tunggu proses running, dan jika sudah maka akan otomatis teralihkan ke halaman localhost:3000
 
+# Link Project : https://fariz-project-react1.netlify.app/
+
